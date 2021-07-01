@@ -1,10 +1,10 @@
-CREATE DATABASE "arian-mydessk";
-CREATE DATABASE "cesar-mydessk";
-CREATE DATABASE "carmen-mydessk";
-CREATE DATABASE "develop-mydessk";
-CREATE DATABASE "wp-mydessk";
+CREATE DATABASE arian;
+CREATE DATABASE cesar;
+CREATE DATABASE carmen;
+CREATE DATABASE develop;
+CREATE DATABASE wp;
 
-use "wp-mydessk";
+use "wp";
 
 -- Adminer 4.8.1 MySQL 8.0.25 dump
 

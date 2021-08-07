@@ -24,7 +24,9 @@ services:
     networks:
       - seshub
   nginx-proxy:
-    image: jwilder/nginx-proxy:alpine
+    build: .
+    image: arianvaldivieso/nginx-proxy:alpine
+    restart: always
     ports:
       - "80:80"
       - "443:443"

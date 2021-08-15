@@ -19,6 +19,10 @@ services:
   adminer:
     image: adminer
     restart: always
+    environment:
+      VIRTUAL_HOST: "adminer.mydessk.com"
+      LETSENCRYPT_HOST: "adminer.mydessk.com"
+      LETSENCRYPT_EMAIL: "info@mydessk.com"
     ports: 
       - 3000:8080
     networks:
